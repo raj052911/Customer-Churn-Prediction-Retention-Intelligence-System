@@ -1,0 +1,20 @@
+{
+    "model": "random_forest",
+    "best_cv_roc_auc": 0.8448087623859026,
+    "best_parameters": {
+        "classifier__n_estimators": 200,
+        "classifier__min_samples_split": 5,
+        "classifier__min_samples_leaf": 1,
+        "classifier__max_features": "sqrt",
+        "classifier__max_depth": 10
+    },
+    "test_metrics": {
+        "model": "random_forest",
+        "accuracy": 0.7622427253371186,
+        "precision": 0.536178107606679,
+        "recall": 0.7727272727272727,
+        "f1_score": 0.6330777656078861,
+        "roc_auc": 0.838020873698623,
+        "average_precision": 0.6438766700095889
+    }
+}

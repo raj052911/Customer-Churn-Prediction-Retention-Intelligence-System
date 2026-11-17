@@ -1,0 +1,329 @@
+2026-11-17 15:01:37,843 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 15:01:37,877 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 15:01:37,877 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 15:02:07,761 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 15:02:07,780 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 15:02:07,780 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 15:02:53,268 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 15:02:53,286 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 15:02:53,296 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 15:02:53,296 | INFO | __main__ | Starting feature engineering.
+2026-11-17 15:02:53,304 | INFO | __main__ | Feature engineering completed successfully.
+2026-11-17 15:02:53,305 | INFO | __main__ | Total features after engineering: 26
+2026-11-17 15:04:01,518 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 15:04:01,539 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 15:04:01,539 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 15:04:01,540 | INFO | __main__ | Starting feature engineering.
+2026-11-17 15:04:01,546 | INFO | __main__ | Feature engineering completed successfully.
+2026-11-17 15:04:01,547 | INFO | __main__ | Total features after engineering: 26
+2026-11-17 15:14:03,351 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 15:14:03,371 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 15:14:03,372 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 15:14:03,372 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 15:14:03,379 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 15:14:03,379 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 15:14:03,382 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 15:14:03,383 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 15:14:03,383 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 15:14:03,383 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 15:16:36,518 | INFO | __main__ | Loading customer churn dataset.
+2026-11-17 15:16:36,550 | INFO | __main__ | Cleaning customer data.
+2026-11-17 15:16:36,550 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 15:16:36,569 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 15:16:36,569 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 15:16:36,570 | INFO | __main__ | Engineering customer features.
+2026-11-17 15:16:36,570 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 15:16:36,577 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 15:16:36,577 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 15:16:36,579 | INFO | __main__ | Feature shape: (7043, 24)
+2026-11-17 15:16:36,579 | INFO | __main__ | Target distribution:
+Churn
+0    5174
+1    1869
+Name: count, dtype: int64
+2026-11-17 15:16:36,580 | INFO | __main__ | Splitting dataset into training and testing.
+2026-11-17 15:16:36,626 | INFO | __main__ | Training records: 5634
+2026-11-17 15:16:36,626 | INFO | __main__ | Testing records: 1409
+2026-11-17 15:16:36,626 | INFO | __main__ | Building Logistic Regression pipeline.
+2026-11-17 15:16:36,626 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 15:16:36,627 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 15:16:36,627 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 15:16:36,627 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 15:16:36,627 | INFO | __main__ | Training Logistic Regression model.
+2026-11-17 15:16:36,692 | INFO | __main__ | Model training completed.
+2026-11-17 15:16:36,693 | INFO | __main__ | Evaluating Logistic Regression.
+2026-11-17 15:16:36,728 | INFO | __main__ | Model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_pipeline.joblib
+2026-11-17 15:16:36,728 | INFO | __main__ | Metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_metrics.json
+2026-11-17 15:17:58,524 | INFO | __main__ | Loading customer churn dataset.
+2026-11-17 15:17:58,551 | INFO | __main__ | Cleaning customer data.
+2026-11-17 15:17:58,551 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 15:17:58,570 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 15:17:58,570 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 15:17:58,571 | INFO | __main__ | Engineering customer features.
+2026-11-17 15:17:58,571 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 15:17:58,578 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 15:17:58,578 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 15:17:58,579 | INFO | __main__ | Feature shape: (7043, 24)
+2026-11-17 15:17:58,579 | INFO | __main__ | Target distribution:
+Churn
+0    5174
+1    1869
+Name: count, dtype: int64
+2026-11-17 15:17:58,580 | INFO | __main__ | Splitting dataset into training and testing.
+2026-11-17 15:17:58,616 | INFO | __main__ | Training records: 5634
+2026-11-17 15:17:58,617 | INFO | __main__ | Testing records: 1409
+2026-11-17 15:17:58,617 | INFO | __main__ | Building Logistic Regression pipeline.
+2026-11-17 15:17:58,617 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 15:17:58,617 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 15:17:58,617 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 15:17:58,618 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 15:17:58,618 | INFO | __main__ | Training Logistic Regression model.
+2026-11-17 15:17:58,676 | INFO | __main__ | Model training completed.
+2026-11-17 15:17:58,676 | INFO | __main__ | Evaluating Logistic Regression.
+2026-11-17 15:17:58,711 | INFO | __main__ | Model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_pipeline.joblib
+2026-11-17 15:17:58,711 | INFO | __main__ | Metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_metrics.json
+2026-11-17 15:24:11,288 | INFO | __main__ | Loading customer churn dataset.
+2026-11-17 15:24:11,319 | INFO | __main__ | Cleaning customer data.
+2026-11-17 15:24:11,320 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 15:24:11,338 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 15:24:11,338 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 15:24:11,339 | INFO | __main__ | Engineering customer features.
+2026-11-17 15:24:11,339 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 15:24:11,345 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 15:24:11,345 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 15:24:11,347 | INFO | __main__ | Feature shape: (7043, 24)
+2026-11-17 15:24:11,347 | INFO | __main__ | Target distribution:
+Churn
+0    5174
+1    1869
+Name: count, dtype: int64
+2026-11-17 15:24:11,348 | INFO | __main__ | Splitting dataset into training and testing.
+2026-11-17 15:24:11,383 | INFO | __main__ | Training records: 5634
+2026-11-17 15:24:11,383 | INFO | __main__ | Testing records: 1409
+2026-11-17 15:24:11,383 | INFO | __main__ | Building Logistic Regression pipeline.
+2026-11-17 15:24:11,383 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 15:24:11,384 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 15:24:11,384 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 15:24:11,384 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 15:24:11,384 | INFO | __main__ | Training Logistic Regression model.
+2026-11-17 15:24:11,444 | INFO | __main__ | Logistic Regression training completed.
+2026-11-17 15:24:11,444 | INFO | __main__ | Evaluating Logistic Regression.
+2026-11-17 15:24:11,477 | INFO | __main__ | Model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_pipeline.joblib
+2026-11-17 15:24:11,478 | INFO | __main__ | Metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_metrics.json
+2026-11-17 15:24:11,478 | INFO | __main__ | Building Random Forest pipeline.
+2026-11-17 15:24:11,478 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 15:24:11,478 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 15:24:11,478 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 15:24:11,479 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 15:24:11,479 | INFO | __main__ | Training Random Forest model.
+2026-11-17 15:24:12,005 | INFO | __main__ | Random Forest training completed.
+2026-11-17 15:24:12,005 | INFO | __main__ | Evaluating Random Forest.
+2026-11-17 15:24:12,210 | INFO | __main__ | Model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\random_forest_pipeline.joblib
+2026-11-17 15:24:12,210 | INFO | __main__ | Metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\random_forest_metrics.json
+2026-11-17 16:19:17,627 | INFO | __main__ | Loading customer churn dataset.
+2026-11-17 16:19:17,665 | INFO | __main__ | Cleaning customer data.
+2026-11-17 16:19:17,665 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 16:19:17,686 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 16:19:17,686 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 16:19:17,687 | INFO | __main__ | Engineering customer features.
+2026-11-17 16:19:17,687 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 16:19:17,694 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 16:19:17,695 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 16:19:17,696 | INFO | __main__ | Feature shape: (7043, 24)
+2026-11-17 16:19:17,697 | INFO | __main__ | Target distribution:
+Churn
+0    5174
+1    1869
+Name: count, dtype: int64
+2026-11-17 16:19:17,698 | INFO | __main__ | Splitting dataset into training and testing.
+2026-11-17 16:19:17,742 | INFO | __main__ | Training records: 5634
+2026-11-17 16:19:17,742 | INFO | __main__ | Testing records: 1409
+2026-11-17 16:19:17,743 | INFO | __main__ | Building Logistic Regression pipeline.
+2026-11-17 16:19:17,743 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 16:19:17,743 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 16:19:17,743 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 16:19:17,743 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 16:19:17,743 | INFO | __main__ | Training Logistic Regression model.
+2026-11-17 16:19:17,812 | INFO | __main__ | Logistic Regression training completed.
+2026-11-17 16:19:17,812 | INFO | __main__ | Evaluating Logistic Regression.
+2026-11-17 16:19:17,847 | INFO | __main__ | Model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_pipeline.joblib
+2026-11-17 16:19:17,848 | INFO | __main__ | Metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_metrics.json
+2026-11-17 16:19:17,848 | INFO | __main__ | Building Random Forest pipeline.
+2026-11-17 16:19:17,848 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 16:19:17,849 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 16:19:17,849 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 16:19:17,849 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 16:19:17,849 | INFO | __main__ | Training Random Forest model.
+2026-11-17 16:19:18,397 | INFO | __main__ | Random Forest training completed.
+2026-11-17 16:19:18,398 | INFO | __main__ | Evaluating Random Forest.
+2026-11-17 16:19:18,602 | INFO | __main__ | Model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\random_forest_pipeline.joblib
+2026-11-17 16:19:18,602 | INFO | __main__ | Metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\random_forest_metrics.json
+2026-11-17 16:19:18,602 | INFO | __main__ | Building Gradient Boosting pipeline.
+2026-11-17 16:19:18,602 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 16:19:18,603 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 16:19:18,603 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 16:19:18,603 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 16:19:18,603 | INFO | __main__ | Training Gradient Boosting model.
+2026-11-17 16:19:19,604 | INFO | __main__ | Gradient Boosting training completed.
+2026-11-17 16:19:19,604 | INFO | __main__ | Evaluating Gradient Boosting.
+2026-11-17 16:19:19,659 | INFO | __main__ | Model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\gradient_boosting_pipeline.joblib
+2026-11-17 16:19:19,659 | INFO | __main__ | Metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\gradient_boosting_metrics.json
+2026-11-17 16:21:17,079 | INFO | __main__ | Loading customer churn dataset.
+2026-11-17 16:21:17,111 | INFO | __main__ | Cleaning customer data.
+2026-11-17 16:21:17,111 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 16:21:17,130 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 16:21:17,131 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 16:21:17,131 | INFO | __main__ | Engineering customer features.
+2026-11-17 16:21:17,131 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 16:21:17,138 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 16:21:17,138 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 16:21:17,178 | INFO | __main__ | Training records: 5634
+2026-11-17 16:21:17,178 | INFO | __main__ | Testing records: 1409
+2026-11-17 16:21:17,178 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 16:21:17,178 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 16:21:17,179 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 16:21:17,179 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 16:21:17,179 | INFO | __main__ | Starting tuning for logistic_regression.
+2026-11-17 16:21:20,757 | INFO | __main__ | Tuning completed for logistic_regression.
+2026-11-17 16:21:20,757 | INFO | __main__ | Best CV ROC-AUC for logistic_regression: 0.8460
+2026-11-17 16:21:20,757 | INFO | __main__ | Best parameters for logistic_regression: {'classifier__solver': 'lbfgs', 'classifier__C': 0.1}
+2026-11-17 16:21:20,785 | INFO | __main__ | Tuned model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_tuned_pipeline.joblib
+2026-11-17 16:21:20,786 | INFO | __main__ | Tuned metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_tuned_metrics.json
+2026-11-17 16:21:20,787 | INFO | __main__ | Starting tuning for random_forest.
+2026-11-17 16:21:48,580 | INFO | __main__ | Tuning completed for random_forest.
+2026-11-17 16:21:48,581 | INFO | __main__ | Best CV ROC-AUC for random_forest: 0.8448
+2026-11-17 16:21:48,581 | INFO | __main__ | Best parameters for random_forest: {'classifier__n_estimators': 200, 'classifier__min_samples_split': 5, 'classifier__min_samples_leaf': 1, 'classifier__max_features': 'sqrt', 'classifier__max_depth': 10}
+2026-11-17 16:21:48,721 | INFO | __main__ | Tuned model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\random_forest_tuned_pipeline.joblib
+2026-11-17 16:21:48,721 | INFO | __main__ | Tuned metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\random_forest_tuned_metrics.json
+2026-11-17 16:21:48,721 | INFO | __main__ | Starting tuning for gradient_boosting.
+2026-11-17 16:24:52,473 | INFO | __main__ | Loading customer churn dataset.
+2026-11-17 16:24:52,507 | INFO | __main__ | Cleaning customer data.
+2026-11-17 16:24:52,507 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 16:24:52,527 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 16:24:52,527 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 16:24:52,527 | INFO | __main__ | Engineering customer features.
+2026-11-17 16:24:52,528 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 16:24:52,533 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 16:24:52,533 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 16:24:52,571 | INFO | __main__ | Training records: 5634
+2026-11-17 16:24:52,572 | INFO | __main__ | Testing records: 1409
+2026-11-17 16:24:52,572 | INFO | src.preprocessing.preprocessing | Building preprocessing pipeline.
+2026-11-17 16:24:52,573 | INFO | src.preprocessing.preprocessing | Numerical features: ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges', 'TotalServices', 'AverageMonthlySpend', 'IsLongTermCustomer', 'HasMonthToMonthContract']
+2026-11-17 16:24:52,573 | INFO | src.preprocessing.preprocessing | Categorical features: ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TenureGroup']
+2026-11-17 16:24:52,573 | INFO | src.preprocessing.preprocessing | Preprocessing pipeline created successfully.
+2026-11-17 16:24:52,573 | INFO | __main__ | Starting tuning for logistic_regression.
+2026-11-17 16:24:56,038 | INFO | __main__ | Tuning completed for logistic_regression.
+2026-11-17 16:24:56,038 | INFO | __main__ | Best CV ROC-AUC for logistic_regression: 0.8460
+2026-11-17 16:24:56,038 | INFO | __main__ | Best parameters for logistic_regression: {'classifier__solver': 'lbfgs', 'classifier__C': 0.1}
+2026-11-17 16:24:56,068 | INFO | __main__ | Tuned model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_tuned_pipeline.joblib
+2026-11-17 16:24:56,068 | INFO | __main__ | Tuned metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\logistic_regression_tuned_metrics.json
+2026-11-17 16:24:56,068 | INFO | __main__ | Starting tuning for random_forest.
+2026-11-17 16:25:19,545 | INFO | __main__ | Tuning completed for random_forest.
+2026-11-17 16:25:19,545 | INFO | __main__ | Best CV ROC-AUC for random_forest: 0.8448
+2026-11-17 16:25:19,545 | INFO | __main__ | Best parameters for random_forest: {'classifier__n_estimators': 200, 'classifier__min_samples_split': 5, 'classifier__min_samples_leaf': 1, 'classifier__max_features': 'sqrt', 'classifier__max_depth': 10}
+2026-11-17 16:25:19,679 | INFO | __main__ | Tuned model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\random_forest_tuned_pipeline.joblib
+2026-11-17 16:25:19,679 | INFO | __main__ | Tuned metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\random_forest_tuned_metrics.json
+2026-11-17 16:25:19,680 | INFO | __main__ | Starting tuning for gradient_boosting.
+2026-11-17 16:26:52,905 | INFO | __main__ | Tuning completed for gradient_boosting.
+2026-11-17 16:26:52,905 | INFO | __main__ | Best CV ROC-AUC for gradient_boosting: 0.8485
+2026-11-17 16:26:52,905 | INFO | __main__ | Best parameters for gradient_boosting: {'classifier__subsample': 0.8, 'classifier__n_estimators': 300, 'classifier__max_depth': 5, 'classifier__learning_rate': 0.01}
+2026-11-17 16:26:52,951 | INFO | __main__ | Tuned model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\gradient_boosting_tuned_pipeline.joblib
+2026-11-17 16:26:52,951 | INFO | __main__ | Tuned metrics saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\gradient_boosting_tuned_metrics.json
+2026-11-17 16:31:40,546 | INFO | __main__ | Starting model comparison.
+2026-11-17 16:31:40,546 | INFO | __main__ | Model comparison results loaded.
+2026-11-17 16:31:40,601 | INFO | __main__ | Model comparison report saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\reports\model_comparison.csv
+2026-11-17 16:34:20,757 | INFO | __main__ | Starting model comparison.
+2026-11-17 16:34:20,757 | INFO | __main__ | Model comparison results loaded.
+2026-11-17 16:34:20,765 | INFO | __main__ | Model comparison report saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\reports\model_comparison.csv
+2026-11-17 16:35:53,136 | INFO | __main__ | Starting final model selection.
+2026-11-17 16:35:54,675 | INFO | __main__ | Best model selected: gradient_boosting
+2026-11-17 16:35:54,676 | INFO | __main__ | Final model saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\artifacts\best_model.joblib
+2026-11-17 16:37:31,338 | INFO | __main__ | Starting customer churn prediction.
+2026-11-17 16:37:31,340 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 16:37:31,344 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 16:37:31,344 | INFO | src.features.feature_engineering | Total features after engineering: 24
+2026-11-17 16:37:31,344 | INFO | __main__ | Loading selected churn prediction model.
+2026-11-17 16:37:32,538 | INFO | __main__ | Customer churn prediction completed.
+2026-11-17 17:11:21,931 | INFO | src.models.predict | Loading selected churn prediction model.
+2026-11-17 17:11:25,080 | INFO | src.models.predict | Trained model loaded successfully.
+2026-11-17 17:15:58,844 | INFO | src.models.predict | Loading selected churn prediction model.
+2026-11-17 17:16:01,228 | INFO | src.models.predict | Trained model loaded successfully.
+2026-11-17 17:16:01,240 | INFO | api.main | Received customer prediction request.
+2026-11-17 17:16:01,241 | INFO | src.models.predict | Starting customer churn prediction.
+2026-11-17 17:16:01,243 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 17:16:01,249 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 17:16:01,249 | INFO | src.features.feature_engineering | Total features after engineering: 24
+2026-11-17 17:16:01,334 | INFO | src.models.predict | Customer churn prediction completed.
+2026-11-17 17:16:01,334 | INFO | api.main | Prediction completed successfully.
+2026-11-17 17:26:36,192 | INFO | src.models.predict | Loading selected churn prediction model.
+2026-11-17 17:26:38,652 | INFO | src.models.predict | Trained model loaded successfully.
+2026-11-17 17:26:38,665 | INFO | api.main | Received customer prediction request.
+2026-11-17 17:26:38,665 | INFO | src.models.predict | Starting customer churn prediction.
+2026-11-17 17:26:38,668 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 17:26:38,676 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 17:26:38,676 | INFO | src.features.feature_engineering | Total features after engineering: 24
+2026-11-17 17:26:38,766 | INFO | src.models.predict | Customer churn prediction completed.
+2026-11-17 17:26:38,766 | INFO | src.retention.recommendations | Generating retention recommendation.
+2026-11-17 17:26:38,776 | INFO | src.retention.recommendations | Retention recommendations generated.
+2026-11-17 17:26:38,776 | INFO | api.main | Prediction and retention recommendations completed.
+2026-11-17 17:26:38,820 | INFO | api.main | Received customer prediction request.
+2026-11-17 17:26:38,820 | INFO | src.models.predict | Starting customer churn prediction.
+2026-11-17 17:26:38,823 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 17:26:38,834 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 17:26:38,835 | INFO | src.features.feature_engineering | Total features after engineering: 24
+2026-11-17 17:26:38,853 | INFO | src.models.predict | Customer churn prediction completed.
+2026-11-17 17:26:38,853 | INFO | src.retention.recommendations | Generating retention recommendation.
+2026-11-17 17:26:38,853 | INFO | src.retention.recommendations | Retention recommendations generated.
+2026-11-17 17:26:38,853 | INFO | api.main | Prediction and retention recommendations completed.
+2026-11-17 17:28:32,780 | INFO | __main__ | Loading selected model.
+2026-11-17 17:28:34,863 | INFO | __main__ | Extracting feature importance.
+2026-11-17 17:28:34,868 | INFO | __main__ | Feature importance extracted successfully.
+2026-11-17 17:28:34,879 | INFO | __main__ | Feature importance saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\reports\feature_importance.csv
+2026-11-17 17:28:36,400 | INFO | __main__ | Feature importance chart saved: D:\OJT_PROJECTS\Customer Churn Prediction & Retention Intelligence System\reports\figures\feature_importance.png
+2026-11-17 18:33:03,893 | INFO | __main__ | Loading customer dataset.
+2026-11-17 18:33:03,924 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 18:33:03,944 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 18:33:03,945 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 18:33:03,945 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 18:33:03,954 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 18:33:03,954 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 18:33:03,994 | INFO | __main__ | Loading selected model.
+2026-11-17 18:34:47,223 | INFO | __main__ | Loading customer dataset.
+2026-11-17 18:34:47,255 | INFO | src.preprocessing.preprocessing | Starting customer data cleaning.
+2026-11-17 18:34:47,274 | INFO | src.preprocessing.preprocessing | Data cleaning completed. Removed rows: 0
+2026-11-17 18:34:47,275 | INFO | src.preprocessing.preprocessing | Final dataset shape: (7043, 21)
+2026-11-17 18:34:47,275 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 18:34:47,282 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 18:34:47,282 | INFO | src.features.feature_engineering | Total features after engineering: 26
+2026-11-17 18:34:47,320 | INFO | __main__ | Loading selected model.
+2026-11-17 18:35:42,058 | INFO | src.models.predict | Loading selected churn prediction model.
+2026-11-17 18:35:43,097 | INFO | src.models.predict | Trained model loaded successfully.
+2026-11-17 18:35:43,103 | INFO | api.main | Received customer prediction request.
+2026-11-17 18:35:43,103 | INFO | src.models.predict | Starting customer churn prediction.
+2026-11-17 18:35:43,104 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 18:35:43,107 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 18:35:43,107 | INFO | src.features.feature_engineering | Total features after engineering: 24
+2026-11-17 18:35:43,150 | INFO | src.models.predict | Customer churn prediction completed.
+2026-11-17 18:35:43,151 | INFO | src.retention.recommendations | Generating retention recommendation.
+2026-11-17 18:35:43,160 | INFO | src.retention.recommendations | Retention recommendations generated.
+2026-11-17 18:35:43,160 | INFO | api.main | Prediction and retention recommendations completed.
+2026-11-17 18:35:43,179 | INFO | api.main | Received customer prediction request.
+2026-11-17 18:35:43,179 | INFO | src.models.predict | Starting customer churn prediction.
+2026-11-17 18:35:43,180 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 18:35:43,183 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 18:35:43,183 | INFO | src.features.feature_engineering | Total features after engineering: 24
+2026-11-17 18:35:43,189 | INFO | src.models.predict | Customer churn prediction completed.
+2026-11-17 18:35:43,189 | INFO | src.retention.recommendations | Generating retention recommendation.
+2026-11-17 18:35:43,189 | INFO | src.retention.recommendations | Retention recommendations generated.
+2026-11-17 18:35:43,189 | INFO | api.main | Prediction and retention recommendations completed.
+2026-11-17 18:55:53,371 | INFO | src.models.predict | Loading selected churn prediction model.
+2026-11-17 18:55:56,093 | INFO | src.models.predict | Trained model loaded successfully.
+2026-11-17 18:55:56,095 | INFO | api.main | Received customer prediction request.
+2026-11-17 18:55:56,095 | INFO | src.models.predict | Starting customer churn prediction.
+2026-11-17 18:55:56,098 | INFO | src.features.feature_engineering | Starting feature engineering.
+2026-11-17 18:55:56,109 | INFO | src.features.feature_engineering | Feature engineering completed successfully.
+2026-11-17 18:55:56,109 | INFO | src.features.feature_engineering | Total features after engineering: 24
+2026-11-17 18:55:56,216 | INFO | src.models.predict | Customer churn prediction completed.
+2026-11-17 18:55:56,217 | INFO | src.retention.recommendations | Generating retention recommendation.
+2026-11-17 18:55:56,217 | INFO | src.retention.recommendations | Retention recommendations generated.
+2026-11-17 18:55:56,217 | INFO | api.main | Prediction and retention recommendations completed.

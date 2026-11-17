@@ -1,0 +1,6 @@
+{
+    "selected_model": "gradient_boosting",
+    "selection_metric": "test_roc_auc",
+    "test_roc_auc": 0.8443785682916118,
+    "test_average_precision": 0.6516841841286145
+}

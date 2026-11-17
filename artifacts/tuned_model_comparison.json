@@ -1,0 +1,17 @@
+{
+    "logistic_regression": {
+        "best_cv_roc_auc": 0.8459759032199561,
+        "test_roc_auc": 0.841101552610504,
+        "test_average_precision": 0.6314265406560763
+    },
+    "random_forest": {
+        "best_cv_roc_auc": 0.8448087623859026,
+        "test_roc_auc": 0.838020873698623,
+        "test_average_precision": 0.6438766700095889
+    },
+    "gradient_boosting": {
+        "best_cv_roc_auc": 0.8485101706809178,
+        "test_roc_auc": 0.8443785682916118,
+        "test_average_precision": 0.6516841841286145
+    }
+}

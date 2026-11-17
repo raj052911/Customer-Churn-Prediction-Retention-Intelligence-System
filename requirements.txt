@@ -1,0 +1,55 @@
+You can open FastAPI documentation directly from VS Code. Follow these steps.
+
+### Step 1: Start the FastAPI server
+
+1. Open your project in VS Code.
+2. Open the terminal using **Ctrl + `**.
+3. Make sure you are in your project root directory.
+4. Execute:
+
+```bash
+python -m uvicorn api.main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+Wait until you see:
+
+```text
+Uvicorn running on http://127.0.0.1:8000
+```
+
+**Keep this terminal running.**
+
+### Step 2: Open FastAPI documentation
+
+You have two ways:
+
+**Method 1 — From VS Code terminal**
+
+Open a second terminal using the `+` button and execute:
+
+```powershell
+Start-Process "http://127.0.0.1:8000/docs"
+```
+
+This opens the documentation in your default browser.
+
+**Method 2 — Manually**
+
+1. Open Chrome or Edge.
+2. Copy this address into the address bar:
+
+   `http://127.0.0.1:8000/docs`
+
+3. Press Enter.
+
+### Step 3: What you'll see
+
+The FastAPI interactive documentation will display:
+
+- `GET /` — Homepage
+- `GET /health` — Model health check
+- `POST /predict` — Customer churn prediction
+
+You can test your trained model directly from this page.
+
+**Important:** Don't close the first VS Code terminal. Your API server must remain running while you use the documentation.

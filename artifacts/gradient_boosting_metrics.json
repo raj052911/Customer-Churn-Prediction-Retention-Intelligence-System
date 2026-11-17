@@ -1,0 +1,9 @@
+{
+    "model": "Gradient Boosting",
+    "accuracy": 0.7998580553584103,
+    "precision": 0.6608391608391608,
+    "recall": 0.5053475935828877,
+    "f1_score": 0.5727272727272728,
+    "roc_auc": 0.8424371593169546,
+    "average_precision": 0.6587030719927615
+}
